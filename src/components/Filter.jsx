@@ -9,7 +9,7 @@ function Filter({ onSelect }) {
   return (
     <>
       <div>
-        <select onChange={selectHandler} className=' dark:bg-darkBlue bg-white text-black dark:text-white py-6 px-8 rounded-lg shadow-lg outline-none border-none t font-nunito placeholder:text-xl cursor-pointer'>
+        <select onChange={selectHandler} className=' dark:bg-darkBlue bg-white text-black dark:text-white py-6 px-8 rounded-lg shadow-lg outline-none border-none t font-nunito placeholder:text-xl cursor-pointer appearance-none'>
         <option className="option cursor-pointer" value="All">
            Filter By Region
           </option>

@@ -41,7 +41,7 @@ function DesignDetail() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen text-black dark:text-white p-8 md:p-20 bg-veryLightGrey dark:bg-veryDarkBlue design-con font-nunito">
+      <div className="min-h-screen text-black dark:text-white p-10  md:p-20 bg-veryLightGrey dark:bg-veryDarkBlue design-con font-nunito">
         <div className="flex items-center gap-4 cursor-pointer bg-white dark:bg-darkBlue rounded-lg w-28 p-4 mb-16 shadow-lg" onClick={() => navigate(-1)}>
           <RiIcons.RiArrowLeftLine />
           Back

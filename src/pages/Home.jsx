@@ -68,7 +68,7 @@ function Home() {
             <input
               type="text"
               placeholder="Search for a country....."
-              className="outline-none border-none p-0 bg-transparent font-nunito placeholder:text-xl  text-black dark:text-white text-2xl"
+              className="outline-none border-none p-0 bg-transparent font-nunito placeholder:text-xl  text-black dark:text-white text-2xl "
               onChange={(e) => setQuery(e.target.value)}
             />
           </div>
@@ -113,7 +113,7 @@ function Home() {
             ?.filter((item) =>
               query.toLowerCase() === ""
                 ? item
-                : item.name.common.toLowerCase().includes(query)
+                : item.name.common.toLowerCase().includes(query.toLowerCase())
             )
             .map(({ name, capital, region, population, item, flags, idd }) => {
               return (
