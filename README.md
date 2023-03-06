@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/restcountriesapichallenge--TazA-r5t2](https://www.frontendmentor.io/solutions/restcountriesapichallenge--TazA-r5t2)
 - Live Site URL: [https://countries-api-challenge.netlify.app/](https://countries-api-challenge.netlify.app/)
 
 ### Built with
@@ -55,6 +55,7 @@ Users should be able to:
 - How to search and filter from an API
 - How to make use of useParams to pass a parameter 
 - How to work with APIs
+- How to toggle dark mode and light mode with tailwind css in react
 
 
 ## Author
